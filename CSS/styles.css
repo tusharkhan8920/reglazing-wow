@@ -2,13 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Imported Goolge Fonts end */
 
+/* global css start */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-p {
+p,
+a {
   font-family: "Poppins", sans-serif;
 }
 
@@ -24,10 +26,13 @@ h6 {
 .container-fluid {
   padding: 0;
 }
-
 .container {
   padding: 0 240px;
 }
+/* global css end */
+
+/* top header css start */
+
 .top-header {
   padding: 15px 240px;
   display: flex;
@@ -60,3 +65,52 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
+
+/* top header css end */
+
+/* navbar css start */
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin-right: 20px; /* Add some margin to the right side */
+}
+
+.nav-list li {
+  margin: 0 10px; /* Adjust spacing as needed */
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #095090;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: lightgray;
+}
+.close-icon {
+  display: none;
+}
+/* navbar css end */
