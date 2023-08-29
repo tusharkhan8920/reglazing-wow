@@ -2,13 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Imported Goolge Fonts end */
 
+/* variable start */
+:root {
+  --primary-text-color: #0a85ea;
+}
+/* variable end */
+
 /* global css start */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 p,
 a {
   font-family: "Poppins", sans-serif;
@@ -94,23 +99,114 @@ h6 {
 .nav-list {
   list-style: none;
   display: flex;
-  margin-right: 20px; /* Add some margin to the right side */
+  margin-right: 20px;
 }
 
 .nav-list li {
-  margin: 0 10px; /* Adjust spacing as needed */
+  margin: 0 10px;
 }
 
 .nav-list a {
   text-decoration: none;
   color: #095090;
+  font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-list a:hover {
-  color: lightgray;
+  color: #0088ff;
 }
 .close-icon {
   display: none;
 }
 /* navbar css end */
+
+/* hero section css start */
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../assets/images/hero-banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 720px;
+}
+
+.left-side-content {
+  width: 70%;
+}
+
+.left-side-content h5 {
+  padding-top: 78px;
+  font-size: 34.823px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+.left-side-content h2 {
+  position: relative;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  background: linear-gradient(165deg, #0a85ea 0%, #00cce3 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.underline-end {
+  position: absolute;
+  top: 51.7%;
+  left: 28%;
+}
+.left-side-content p {
+  margin-top: 62px;
+  color: #434343;
+  font-size: 22px;
+  font-weight: 500;
+}
+.btn-group {
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+}
+.btn-primary {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 100px;
+  background: linear-gradient(168deg, #00cce3 0%, #0a85ea 100%);
+  transition: transform 0.2s, background 0.2s;
+}
+.btn-primary img {
+  margin-right: 12px;
+}
+.btn-primary:active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+}
+.btn-outline {
+  padding: 12px 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #1c7ace;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 100px;
+  border: 1px solid #1c7ace;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.btn-outline:active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+}
+
+/* hero section css end */
