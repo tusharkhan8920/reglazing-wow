@@ -1,0 +1,62 @@
+/* Imported Goolge Fonts start */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Imported Goolge Fonts end */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+  padding: 0 240px;
+}
+.top-header {
+  padding: 15px 240px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background: linear-gradient(
+    194deg,
+    rgba(122, 225, 237, 0.2) 0%,
+    rgba(122, 225, 237, 0) 100%
+  );
+}
+.top-header .social-icons {
+  margin-right: 45px;
+}
+.top-head-icons {
+  width: 16px;
+}
+.top-header p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.top-header .top-head-data {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+.top-header .top-head-data-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
