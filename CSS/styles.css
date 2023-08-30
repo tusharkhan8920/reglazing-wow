@@ -124,20 +124,22 @@ h6 {
 /* hero section css start */
 .hero-wrapper {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  overflow: hidden;
   background-image: url("../assets/images/hero-banner1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 720px;
+  height: 720px;
 }
 
 .left-side-content {
-  width: 70%;
+  width: 50%;
+  padding-left: 240px;
 }
 
 .left-side-content h5 {
-  padding-top: 78px;
+  padding-top: -20px;
   font-size: 34.823px;
   font-weight: 400;
   color: var(--primary-text-color);
@@ -156,7 +158,7 @@ h6 {
 }
 .underline-end {
   position: absolute;
-  top: 51.7%;
+  top: 55.9%;
   left: 28%;
 }
 .left-side-content p {
@@ -207,6 +209,45 @@ h6 {
 .btn-outline:active {
   transform: scale(0.95);
   transition: transform 0.1s;
+}
+
+.right-side-content {
+  position: relative;
+}
+
+.right-side-content .hero-image {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -300px;
+  height: 753px;
+  z-index: 50;
+}
+.right-side-content .warranty-image {
+  position: absolute;
+  width: 30%;
+  top: 16%;
+  right: 53%;
+  transform: rotate(-8deg);
+}
+.right-side-content .review-card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.mini-bottom-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  background: transparent;
+  color: transparent;
+  z-index: 50;
+  padding: 8px 15px;
+  border-radius: 60px;
+  background-color: #095090;
+}
+.mini-bottom-container span {
+  margin: 0 5px;
 }
 
 /* hero section css end */
