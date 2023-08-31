@@ -251,3 +251,302 @@ h6 {
 }
 
 /* hero section css end */
+
+/*google reviews section start*/
+.g-wrpeer {
+  width: 980px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 40px 48px;
+  background: linear-gradient(
+    306.44deg,
+    rgba(255, 255, 255, 0.8) 65.31%,
+    rgba(122, 225, 237, 0.8) 186.6%
+  );
+  margin-top: -70px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 50;
+  box-shadow: 0px 11px 49px 0px #2082d32b;
+}
+.column {
+  flex: 1;
+  width: 25%;
+  vertical-align: middle;
+}
+.g-wrpeer .column h3 {
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2082d3;
+  margin-bottom: 15px;
+}
+.g-wrpeer .column p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2082d3;
+}
+
+/*google reviews section end  */
+
+/*service card section start*/
+#service-card {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(
+    180deg,
+    rgba(225, 252, 255, 0.22) 10.37%,
+    rgba(122, 225, 237, 0.29) 100%
+  );
+}
+.common-heading {
+  width: 860px;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.h2 {
+  font-size: 49px;
+  font-weight: 500;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2082d3;
+}
+.common-heading p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #434343;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background: #fff;
+  width: 24%;
+  border: 5px solid #2082d31a;
+  box-shadow: 0px 22.32533073425293px 13.589332580566406px 0px #006bbd0d;
+  margin: 0 10px !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-content {
+}
+.card-content h3 {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.6558954119682312px;
+  text-align: left;
+  color: #2f2f2f;
+  margin: 10px 0;
+}
+.card-content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.card-content a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #0a85ea;
+}
+/*service card section end  */
+
+/*call to action fluid border design start */
+#callToAction {
+  background-image: url(../assets/images/caltoactionbanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.action-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.action-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action-wrapper h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+.action-wrapper a {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #095090;
+  background: #fff;
+  padding: 16px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.action-wrapper a img {
+  padding-right: 10px;
+}
+/*call to action fluid border design end */
+/*why chose us section start*/
+#chose-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.common-heading img {
+  text-align: center;
+}
+
+.why-row {
+  display: flex;
+  justify-content: center;
+}
+.why-column {
+  width: 33.33%;
+}
+.why-box {
+  display: flex;
+  border: 3px solid #0950901a;
+  margin: 14px;
+  padding: 18px 20px;
+  border-radius: 15px;
+  min-height: 160px;
+}
+.why-icon {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.why-icon img {
+  width: 76px;
+  height: 76px;
+}
+.why-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.why-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 15px;
+  color: #095090;
+}
+/*why chose us section end*/
+/*gallery sections start*/
+#gallery {
+  background: radial-gradient(
+    75.69% 161.18% at 50% -19.29%,
+    #ffffff 16.47%,
+    #7ae1ed21 62.62%,
+    #0a85ea17 100%
+  );
+  opacity: 0.8;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.gallery-slider {
+}
+
+/*gallery sections end  */
+/*contact start*/
+#contact {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.contact-bg {
+  background-image: url(../assets/images/map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: end;
+  padding-right: 20%;
+  margin-top: 45px;
+}
+.contact-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: -61px;
+  background: linear-gradient(
+      154.6deg,
+      rgba(189, 248, 255, 0.8) 2.29%,
+      rgba(255, 255, 255, 0.8) 98.03%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
