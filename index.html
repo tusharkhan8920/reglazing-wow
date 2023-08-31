@@ -14,7 +14,7 @@
   <body>
     <!-- top heading start -->
     <section class="">
-      <div class="top-header">
+      <div class="top-header" id="top">
         <div class="social-icons">
           <img
             src="./assets/svg/facebook-icon.svg"
@@ -183,6 +183,7 @@
       </div>
     </section>
     <!-- hero section end -->
+
     <!-- google reviews sections start -->
     <section class="container">
       <div class="g-wrpeer">
@@ -296,9 +297,9 @@
               Bathtub Reglazing: Affordable and Sustainable Bathroom Renewal
             </h3>
           </div>
-          <div class="action-column">
-            <a href="#"><img src="./assets/svg/phone-icon.svg" />Call Now</a>
-          </div>
+          <button class="btn-secondary">
+            <img src="./assets/svg/call-now-icon-primary.svg" />Call Now
+          </button>
         </div>
       </div>
     </section>
@@ -333,7 +334,7 @@
           <div class="why-column">
             <div class="why-box">
               <div class="why-icon">
-                <img src="./assets/svg/set.svg" />
+                <img src="./assets/images/badge-icon.png" />
               </div>
               <div class="why-content">
                 <p>
@@ -348,7 +349,7 @@
           <div class="why-column">
             <div class="why-box">
               <div class="why-icon">
-                <img src="./assets/svg/set.svg" />
+                <img src="./assets/images/thumbs-up-icon.png" />
               </div>
               <div class="why-content">
                 <p>
@@ -366,7 +367,7 @@
           <div class="why-column">
             <div class="why-box">
               <div class="why-icon">
-                <img src="./assets/svg/set.svg" />
+                <img src="./assets/images/cost.png" />
               </div>
               <div class="why-content">
                 <p>
@@ -381,7 +382,7 @@
           <div class="why-column">
             <div class="why-box">
               <div class="why-icon">
-                <img src="./assets/svg/set.svg" />
+                <img src="./assets/images/clock-in-hand.png" />
               </div>
               <div class="why-content">
                 <p>
@@ -396,7 +397,7 @@
           <div class="why-column">
             <div class="why-box">
               <div class="why-icon">
-                <img src="./assets/svg/set.svg" />
+                <img src="./assets/images/support.png" />
               </div>
               <div class="why-content">
                 <p>
@@ -414,11 +415,25 @@
 
     <!-- gallery section start  -->
     <section id="gallery">
-      <div class="container">
+      <div class="gallery-bg"></div>
+      <div class="container slider-bg">
         <div class="common-heading">
           <h2 class="h2">Gallery</h2>
           <img src="./assets/svg/smallUnderline.svg" />
         </div>
+      </div>
+      <div class="container-fluid slide-container">
+        <img src="./assets/images/slid1.jpg" alt="" />
+        <img src="./assets/images/slide2.jpg" alt="" />
+        <img src="./assets/images/slide3.jpg" alt="" />
+        <img src="./assets/images/slide4.jpg" alt="" />
+        <img src="./assets/images/slide5.jpg" alt="" />
+        <img src="./assets/images/slide6.png" alt="" />
+      </div>
+      <div class="slider-btn">
+        <div class="slider-btn-first"></div>
+        <div class="slider-btn-second"></div>
+        <div class="slider-btn-third"></div>
       </div>
     </section>
     <!-- gallery section end  -->
@@ -431,43 +446,132 @@
         </div>
       </div>
 
+      <div class="iframe-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1442.9366414721355!2d-79.34181829338428!3d43.67160515961394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb7dcd3f9c3b%3A0x33fd1c4f266f6317!2sPape%20Ave%20at%20Riverdale%20Ave%20North%20Side!5e0!3m2!1sen!2sbd!4v1693508289262!5m2!1sen!2sbd"
+          width="1900"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
       <div class="container-fluid contact-bg">
         <div class="contact-wrapper">
-          <div class="contact-form">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-              <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required />
-              </div>
-              <div class="form-group">
-                <label for="address">Address:</label>
-                <input type="text" id="address" name="address" required />
-              </div>
-              <div class="form-group">
-                <label for="help">How can I help?</label>
-                <textarea id="help" name="help" rows="4" required></textarea>
-              </div>
-              <div class="form-group">
-                <label for="image">Attach Image:</label>
-                <input type="file" id="image" name="image" />
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Submit" />
-              </div>
+          <div class="">
+            <p>Send Us Message</p>
+            <form class="form-container">
+              <input
+                type="text"
+                name=""
+                class="form-input"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                name=""
+                class="form-input"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                name=""
+                class="form-input"
+                placeholder="Phone"
+              />
+              <input
+                type="text"
+                name=""
+                class="form-input"
+                placeholder="Address"
+              />
+              <input
+                type="text"
+                name=""
+                class="form-input"
+                placeholder="How can help"
+              />
+              <input type="file" class="hidden" id="attachImages" />
+              <label for="attachImages" class="btn-file-upload"
+                ><img src="./assets/svg/image-upload-icon.svg" alt="" /> Attach
+                Images</label
+              >
+              <button class="btn-primary btn-send-now">Send Now</button>
             </form>
+            <div class="form-social-icons">
+              <img
+                src="./assets/svg/footer-facebook-icon.svg"
+                class="footer-icon"
+                alt=""
+              />
+              <img
+                src="./assets/svg/instagram-icon.svg"
+                alt=""
+                class="footer-icon"
+              />
+              <img src="./assets/svg/twitter.svg" alt="" class="footer-icon" />
+              <img src="./assets/svg/youtube.svg" alt="" class="footer-icon" />
+              <img src="./assets/svg/linkedin.svg" alt="" class="footer-icon" />
+              <img
+                src="./assets/svg/footer-phone-icon.svg"
+                alt=""
+                class="footer-icon"
+              />
+            </div>
+            <div>
+              <a href="#top">
+                <img
+                  src="./assets/svg/top-btn.svg"
+                  class="go-to-top-btn"
+                  alt=""
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- contact us section end   -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="./assets/images/footer-logo.png" alt="Company Logo" />
+          <p>
+            Revitalize your bathtub in Toronto, Hamilton, and Mississauga with
+            professional bathtub reglazing services.
+          </p>
+        </div>
+        <div class="footer-links">
+          <p class="footer-menu-head">Quick Links</p>
+          <div class="footer-menu-underline"></div>
+          <ul class="footer-nav">
+            <li><a class="footer-nav-menu-item">Home</a></li>
+            <li><a class="footer-nav-menu-item">About Us</a></li>
+            <li><a class="footer-nav-menu-item">Gallery</a></li>
+            <li><a class="footer-nav-menu-item">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <p class="footer-menu-head">Our Services</p>
+          <div class="footer-menu-underline"></div>
+          <ul class="footer-nav">
+            <li><a class="footer-nav-menu-item">Bathtub Reglazing</a></li>
+            <li><a class="footer-nav-menu-item">Bathtub Refinishing</a></li>
+            <li><a class="footer-nav-menu-item">Bathtub Chip Repair</a></li>
+            <li>
+              <a class="footer-nav-menu-item">Bathtub & Tiles Reglazing</a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyright-text">
+          Copyright by Reglazingwow. All Rights Reserved. Terms of UsePrivacy
+          Policy
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
   </body>
 </html>
