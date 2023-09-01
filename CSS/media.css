@@ -259,6 +259,12 @@
     );
   }
 
+  .common-heading {
+    width: 100vw;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
   #service-card h2 {
     color: #2082d3;
     text-align: center;
@@ -268,12 +274,28 @@
   }
   #service-card p {
     color: #434343;
+    margin-top: 20px;
     text-align: center;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+  }
+  .card-content p {
+    display: none;
+  }
+  .card-content a {
+    display: none;
+  }
+  .card {
+    background: #fff;
+    width: 90vw;
+    border: 5px solid #2082d31a;
+    box-shadow: 0px 22.32533073425293px 13.589332580566406px 0px #006bbd0d;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
   }
   /* service card end */
 

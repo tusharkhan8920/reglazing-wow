@@ -138,9 +138,10 @@ button {
 
 /* hero section css start */
 .hero-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
-  background-image: url("../assets/images/hero-banner1.png");
+  background-image: url("../assets/images/banner-image.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 720px;
@@ -159,7 +160,6 @@ button {
 }
 
 .left-side-content h2 {
-  position: relative;
   font-size: 88px;
   font-style: normal;
   font-weight: 500;
@@ -171,7 +171,7 @@ button {
 }
 .underline-end {
   position: absolute;
-  top: 55.9%;
+  top: 54%;
   left: 28%;
 }
 .left-side-content p {
@@ -239,6 +239,7 @@ button {
   align-items: center;
   justify-content: center;
   color: #1c7ace;
+  background: transparent;
   font-size: 22px;
   font-weight: 500;
   border-radius: 100px;
@@ -251,31 +252,6 @@ button {
   transition: transform 0.1s;
 }
 
-.right-side-content {
-  position: relative;
-}
-
-.hero-image img {
-  position: relative;
-  width: 55%;
-  text-align: right;
-  margin-left: 90px;
-  z-index: 5;
-}
-.warranty-image img {
-  position: absolute;
-  width: 170px;
-  top: 12%;
-  left: 12%;
-  transform: rotate(25deg);
-}
-.review-card-image img {
-  position: absolute;
-  top: 18%;
-  right: 23%;
-  z-index: 1;
-}
-
 .mini-button-container button {
   background-color: transparent;
   border: none;
@@ -285,7 +261,7 @@ button {
 
 .mini-button-container {
   position: absolute;
-  bottom: 6%;
+  bottom: 5%;
   right: 5%;
   display: flex;
   align-items: center;
