@@ -43,6 +43,11 @@ iframe {
 .container {
   padding: 0 240px;
 }
+
+button {
+  cursor: pointer;
+}
+
 /* global css end */
 
 /* top header css start */
@@ -191,6 +196,12 @@ iframe {
   border: none;
   padding: 12px 40px;
   border-radius: 100px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 168, 224, 0.2),
+    0px 2.27166px 5.30055px 0px rgba(0, 168, 224, 0.2),
+    0px 9.08665px 9.08665px 0px rgba(0, 168, 224, 0.17),
+    0px 21.20219px 12.87276px 0px rgba(0, 168, 224, 0.1),
+    0px 37.10382px 15.14442px 0px rgba(0, 168, 224, 0.03),
+    0px 58.30601px 16.65886px 0px rgba(0, 168, 224, 0);
   background: linear-gradient(168deg, #00cce3 0%, #0a85ea 100%);
   transition: transform 0.2s, background 0.2s;
 }
@@ -265,14 +276,14 @@ iframe {
   z-index: 1;
 }
 
-.mini-bottom-container button {
+.mini-button-container button {
   background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
 }
 
-.mini-bottom-container {
+.mini-button-container {
   position: absolute;
   bottom: 6%;
   right: 5%;
@@ -286,7 +297,7 @@ iframe {
   border-radius: 60px;
   background-color: #095090;
 }
-.mini-bottom-container span {
+.mini-button-container span {
   margin: 0 5px;
 }
 
@@ -416,7 +427,7 @@ iframe {
 
 /*call to action fluid border design start */
 #callToAction {
-  background-image: url(../assets/images/caltoactionbanner.png);
+  background-image: url("../assets/images/caltoactionbanner.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
