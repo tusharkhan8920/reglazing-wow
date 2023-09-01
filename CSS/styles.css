@@ -66,6 +66,9 @@ button {
 .top-header .social-icons {
   margin-right: 45px;
 }
+.whatsapp-icon {
+  margin-left: 10px;
+}
 .top-head-icons {
   width: 16px;
 }
@@ -97,7 +100,8 @@ button {
 }
 
 .logo img {
-  height: 50px;
+  width: 213px;
+  /* height: 64px; */
 }
 
 .menu-toggle {
@@ -123,6 +127,7 @@ button {
 .nav-list a {
   text-decoration: none;
   color: #095090;
+  font-size: 20px;
   font-weight: 500;
   transition: color 0.3s;
   padding: 12px;
@@ -140,6 +145,7 @@ button {
 .hero-wrapper {
   position: relative;
   display: flex;
+  margin-top: -20px;
   align-items: center;
   background-image: url("../assets/images/banner-image.png");
   background-size: cover;
@@ -149,7 +155,8 @@ button {
 
 .left-side-content {
   width: 50%;
-  padding-left: 240px;
+  margin-top: -75px;
+  padding-left: 230px;
 }
 
 .left-side-content h5 {
@@ -163,15 +170,16 @@ button {
   font-size: 88px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.2;
-  background: linear-gradient(165deg, #0a85ea 0%, #00cce3 100%);
+  padding-bottom: 5px;
+  line-height: 91px;
+  background: linear-gradient(104deg, #0a85ea 31.72%, #00cce3 92.19%);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .underline-end {
   position: absolute;
-  top: 54%;
+  top: 46%;
   left: 28%;
 }
 .left-side-content p {
@@ -243,7 +251,7 @@ button {
   font-size: 22px;
   font-weight: 500;
   border-radius: 100px;
-  border: 1px solid #1c7ace;
+  border: 3px solid #1c7ace;
   transition: transform 0.2s, background 0.2s;
 }
 
@@ -261,8 +269,8 @@ button {
 
 .mini-button-container {
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  bottom: 2%;
+  right: 4%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -281,12 +289,12 @@ button {
 
 /*google reviews section start*/
 .g-wrpeer {
-  width: 980px;
+  width: 965px;
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   justify-content: center;
-  padding: 40px 48px;
-  margin-top: -70px;
+  padding: 12px 40px;
+  margin-top: -80px;
   position: relative;
   z-index: 50;
   border-radius: 20px;
@@ -299,9 +307,13 @@ button {
   backdrop-filter: blur(13.5px);
 }
 .column {
-  flex: 1;
-  width: 25%;
-  vertical-align: middle;
+  display: flex;
+  width: 100%;
+  padding: 15px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 .g-wrpeer .column h3 {
   font-size: 57px;
@@ -313,12 +325,12 @@ button {
   margin-bottom: 15px;
 }
 .g-wrpeer .column p {
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 14px;
-  letter-spacing: 0px;
-  text-align: center;
   color: #2082d3;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14.242px;
 }
 
 /*google reviews section end  */
@@ -344,15 +356,14 @@ button {
   font-weight: 500;
   line-height: 59px;
   letter-spacing: 0px;
-  text-align: center;
   color: #2082d3;
 }
 .common-heading p {
   font-size: 22px;
+  margin-top: 50px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0px;
-  text-align: center;
   color: #434343;
 }
 .card-wrapper {
