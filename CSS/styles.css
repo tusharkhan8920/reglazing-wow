@@ -270,19 +270,21 @@ button {
 .mini-button-container {
   position: absolute;
   bottom: 2%;
-  right: 4%;
+  right: 4.5%;
   display: flex;
   align-items: center;
-  gap: 10px;
   background: transparent;
   color: transparent;
   z-index: 50;
-  padding: 5px 10px;
+  padding: 8.45px;
   border-radius: 60px;
   background-color: #095090;
 }
 .mini-button-container span {
   margin: 0 5px;
+}
+.support-btn {
+  margin-left: 11px;
 }
 
 /* hero section css end */
@@ -322,7 +324,6 @@ button {
   letter-spacing: 0px;
   text-align: center;
   color: #2082d3;
-  margin-bottom: 15px;
 }
 .g-wrpeer .column p {
   color: #2082d3;
@@ -348,7 +349,6 @@ button {
 .common-heading {
   width: 860px;
   margin: auto;
-  padding-bottom: 50px;
   text-align: center;
 }
 .h2 {
@@ -360,28 +360,28 @@ button {
 }
 .common-heading p {
   font-size: 22px;
-  margin-top: 50px;
+  margin: 35px 0;
   font-weight: 400;
+  text-align: center;
   line-height: 32px;
   letter-spacing: 0px;
   color: #434343;
 }
 .card-wrapper {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .card {
   background: #fff;
-  width: 24%;
   border: 5px solid #2082d31a;
   box-shadow: 0px 22.32533073425293px 13.589332580566406px 0px #006bbd0d;
   margin: 0 10px !important;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 12px;
 }
 .card-image img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 12px;
 }
 
 .card-content h3 {
@@ -455,6 +455,7 @@ button {
   padding-right: 10px;
 }
 /*call to action fluid border design end */
+
 /*why chose us section start*/
 #chose-us {
   padding-top: 80px;
@@ -464,20 +465,24 @@ button {
   text-align: center;
 }
 
+#chose-us .common-heading {
+  margin-bottom: 40px;
+}
+
 .why-row {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.why-column {
-  width: 33.33%;
-}
+
 .why-box {
   display: flex;
   border: 3px solid #0950901a;
   margin: 14px;
-  padding: 18px 20px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
   border-radius: 15px;
-  min-height: 160px;
+  min-height: 126px;
 }
 .why-icon {
   width: 20%;
@@ -735,11 +740,6 @@ footer p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 .footer-nav-menu-item {
   color: #183855;
