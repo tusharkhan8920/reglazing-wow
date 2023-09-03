@@ -369,7 +369,7 @@
   }
   .gallery-bg {
     position: absolute;
-    height: 64%;
+    height: 66%;
   }
   .slide-container {
     display: none;
@@ -493,9 +493,8 @@
     margin: auto;
   }
   .form-social-icons-mini {
-    position: absolute;
-    bottom: -15%;
-    right: 14%;
+    width: 90%;
+    margin: 50px auto;
     display: flex;
     gap: 19.5px;
   }
@@ -572,7 +571,7 @@
   }
   .copyright-text-mini {
     color: #183855;
-    font-size: 9px;
+    font-size: 8px;
     font-style: normal;
     text-align: center;
     font-weight: 400;
