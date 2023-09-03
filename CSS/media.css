@@ -11,9 +11,11 @@
     display: none;
   }
   .top-head-icons {
-    width: 12px;
+    width: 15px;
   }
   .top-header {
+    overflow-x: hidden;
+    display: block;
     padding: 33px 20px;
     background: linear-gradient(
       194deg,
@@ -22,7 +24,7 @@
     );
   }
   .top-header p {
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 400;
     margin-left: 8px;
   }
@@ -255,7 +257,6 @@
   /* service card start */
   #service-card {
     padding: 25px 0;
-    width: 95vw;
     background: linear-gradient(
       180deg,
       rgba(225, 252, 255, 0.22) 10.37%,
@@ -285,7 +286,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    padding: 20px;
+    padding: 10px;
   }
   .card-wrapper {
     display: grid;
@@ -307,6 +308,10 @@
   .why-row {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why-column {
+    margin: auto;
   }
 
   .why-icon img {
@@ -340,6 +345,11 @@
   /* call to action end */
 
   /* Choose us start */
+  #chose-us {
+    width: 100vw;
+    overflow: hidden;
+  }
+
   #chose-us .common-heading h2 {
     color: #2082d3;
     text-align: center;
@@ -354,6 +364,9 @@
   /* Choose us end */
 
   /* gallery start */
+  #gallery .common-heading img {
+    margin-bottom: 22px;
+  }
   .gallery-bg {
     position: absolute;
     height: 64%;
@@ -375,13 +388,116 @@
 
   /* map start */
   .map {
-    width: 390px;
-    height: 389px;
+    width: 100vw;
+    height: 390px;
   }
   /* map end */
   /* contact us start */
   .contact-bg {
     display: none;
+  }
+
+  #contact {
+    position: relative;
+  }
+  #contact .common-heading img {
+    margin-bottom: 40px;
+  }
+  .contact-bg-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-wrapper-mini {
+    position: absolute;
+    top: 60%;
+    width: 90%;
+    height: 440px;
+    margin: auto;
+    padding: 24px;
+    gap: 15.525px;
+    border-radius: 5.971px;
+    border: 5.07px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      155deg,
+      rgba(189, 248, 255, 0.8) 2.29%,
+      rgba(255, 255, 255, 0.8) 98.03%
+    );
+    box-shadow: 0px 5.79596px 5.79596px 0px rgba(0, 107, 189, 0.09),
+      0px 13.3307px 8.11434px 0px rgba(0, 107, 189, 0.05);
+    backdrop-filter: blur(3.6211342811584473px);
+  }
+  .contact-wrapper-mini p {
+    margin-bottom: 16px;
+    text-align: center;
+    color: #095090;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.884px;
+  }
+  .form-container-mini {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .form-input-mini {
+    padding: 5px 0;
+    background: transparent;
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  .form-input-mini::placeholder {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14.841px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.979px;
+  }
+
+  .form-input-mini:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  .btn-file-upload-mini {
+    text-align: center;
+    font-family: poppins;
+    display: flex;
+    width: 113px;
+    height: 28px;
+    margin: auto;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.39px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15.26px;
+    border-radius: 53.897px;
+    background: transparent;
+    border: 1.078px solid #000;
+    cursor: pointer;
+  }
+
+  .btn-file-upload-mini:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+  }
+  .btn-send-now-mini {
+    padding: 8px 80px;
+    margin: auto;
+  }
+  .form-social-icons-mini {
+    position: absolute;
+    bottom: -15%;
+    right: 14%;
+    display: flex;
+    gap: 19.5px;
   }
   /* contact us end */
 
@@ -393,7 +509,6 @@
     background-image: url("https://i.ibb.co/mzb5Xcw/image.png");
     background-position: center;
     background-repeat: no-repeat;
-    width: 400px;
     height: 895px;
     padding: 22px 22px 0 22px;
   }
@@ -424,7 +539,7 @@
     display: flex;
     align-items: center;
     width: 384px;
-    margin-top: 150px;
+    margin-top: 250px;
   }
   .footer-links-container p {
     color: #183855;
@@ -505,6 +620,9 @@
     display: none;
   }
   .footer-mini {
+    display: none;
+  }
+  .contact-bg-mini {
     display: none;
   }
 }
