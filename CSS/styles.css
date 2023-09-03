@@ -202,7 +202,7 @@ button {
   font-weight: 500;
   color: white;
   border: none;
-  padding: 12px 40px;
+  padding: 15px 40px;
   border-radius: 100px;
   box-shadow: 0px 0px 0px 0px rgba(0, 168, 224, 0.2),
     0px 2.27166px 5.30055px 0px rgba(0, 168, 224, 0.2),
@@ -302,11 +302,14 @@ button {
   position: relative;
   z-index: 50;
   border-radius: 20px;
+  border-radius: 20px;
   background: linear-gradient(
-    306deg,
-    rgba(255, 255, 255, 0.8) 65.31%,
+    340deg,
+    rgba(255, 255, 255, 0.8) 75%,
     rgba(122, 225, 237, 0.8) 186.6%
   );
+  box-shadow: 0px 11px 49px 0px rgba(32, 130, 211, 0.17);
+  backdrop-filter: blur(13.5px);
   box-shadow: 0px 11px 49px 0px rgba(32, 130, 211, 0.17);
   backdrop-filter: blur(13.5px);
 }
@@ -383,7 +386,7 @@ button {
 }
 .card-image img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 
 .card-content h3 {
