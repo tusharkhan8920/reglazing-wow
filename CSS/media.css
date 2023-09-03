@@ -1,6 +1,9 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   /* global css start */
+  body {
+    overflow-x: hidden;
+  }
   .container {
     padding: 0 20px;
   }
@@ -280,7 +283,7 @@
   #service-card .common-heading p {
     color: #434343;
     margin-top: 20px;
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     font-size: 15px;
     font-style: normal;
