@@ -298,7 +298,7 @@
     justify-content: center;
     grid-template-columns: repeat(1, 1fr);
     gap: 60px 0;
-    padding: 0 10px;
+    padding: 0 30px;
   }
   .card {
     margin: 0;
@@ -381,12 +381,16 @@
   /* Choose us end */
 
   /* gallery start */
+  #gallery {
+    position: relative;
+  }
   #gallery .common-heading img {
     margin-bottom: 22px;
   }
   .gallery-bg {
     position: absolute;
-    height: 58%;
+    bottom: 10%;
+    min-height: 60vh;
   }
   .slide-container {
     display: none;
