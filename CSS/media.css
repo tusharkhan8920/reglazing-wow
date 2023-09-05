@@ -104,7 +104,9 @@
     margin-top: 28px;
     max-height: 550px;
   }
-
+  .sm-hidden {
+    display: none;
+  }
   .left-side-content {
     width: 100%;
     margin-top: 0;
@@ -298,7 +300,7 @@
     justify-content: center;
     grid-template-columns: repeat(1, 1fr);
     gap: 60px 0;
-    padding: 0 30px;
+    padding: 0 44px;
   }
   .card {
     margin: 0;
@@ -321,6 +323,7 @@
   /* service card end */
 
   /* why us start */
+
   .why-row {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -420,6 +423,7 @@
 
   #contact {
     position: relative;
+    padding-top: 10px;
   }
   #contact .common-heading img {
     margin-bottom: 40px;
@@ -621,10 +625,72 @@
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-  .mini-hero-image {
+@media (min-width: 1200px) {
+  /* global css start */
+  .mini-hero-img {
     display: none;
   }
+  .mini-google-review {
+    display: none;
+  }
+  .mini-warranty-image {
+    display: none;
+  }
+  .mini-review-card-image {
+    display: none;
+  }
+  .g-wrpeer-mini {
+    display: none;
+  }
+  .slide-container-mini {
+    display: none;
+  }
+  .footer-mini {
+    display: none;
+  }
+  .contact-bg-mini {
+    display: none;
+  }
+  .container {
+    padding-left: 140px;
+  }
+  /* global css end */
+
+  /* top header start */
+
+  /* top header end */
+
+  /* hero section start */
+
+  /* hero section end */
+
+  /* google reviews section start */
+
+  /* google reviews section start */
+
+  /* service card section start */
+
+  /* service card section end */
+
+  /* call to action fluid border design start */
+
+  /* call to action fluid border design end */
+
+  /* why chose us section start */
+
+  /* why chose us section end */
+
+  /* gallery sections start */
+
+  /* gallery sections end */
+
+  /* contact start */
+
+  /* contact end */
+
+  /* footer start */
+
+  /* footer end */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -651,6 +717,9 @@
     display: none;
   }
   .contact-bg-mini {
+    display: none;
+  }
+  .sm-show {
     display: none;
   }
 }

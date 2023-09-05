@@ -118,7 +118,24 @@
         </label>
         <ul class="nav-list">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
+          <li class="dropdown">
+            <label class="dropbtn">Services</label>
+            <img src="./assets/svg/down-arrow.svg" alt="" />
+            <ul class="dropdown-content">
+              <li>
+                <a>Bathtub Reglazing</a>
+              </li>
+              <li>
+                <a>Bathtub Refinishing</a>
+              </li>
+              <li>
+                <a>Bathtub Chip Repair</a>
+              </li>
+              <li>
+                <a>Bathtub & Tiles Reglazing</a>
+              </li>
+            </ul>
+          </li>
           <li><a href="#">About</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Contact</a></li>
@@ -141,7 +158,11 @@
             alt="underline"
             class="underline-end"
           />
-          <p>
+          <p class="sm-hidden">
+            We are providing all types of refinishing solutions for every <br />
+            small and big business, organization and home.
+          </p>
+          <p class="sm-show">
             We are providing all types of refinishing solutions for every small
             and big business, organization and home.
           </p>
@@ -169,6 +190,9 @@
           </div>
         </div>
       </div>
+      <!-- temp bg start -->
+      <div class="temp-bg"></div>
+      <!-- temp bg end -->
     </section>
     <!-- hero section end -->
 
@@ -178,7 +202,7 @@
         <div class="column">
           <img src="./assets/images/google-review.png" />
         </div>
-        <div class="column">
+        <div class="column -mr">
           <h3 class="g-number">2</h3>
           <p>Years Warranty</p>
         </div>
@@ -305,7 +329,7 @@
 
     <!-- call to action fluid border design start -->
     <section id="callToAction">
-      <div class="container">
+      <div class="container-call-to-action">
         <div class="action-wrapper">
           <div class="action-column">
             <h3>
