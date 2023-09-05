@@ -381,12 +381,12 @@ button {
   border: 5px solid #2082d31a;
   box-shadow: 0px 22.32533073425293px 13.589332580566406px 0px #006bbd0d;
   margin: 0 10px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 12px;
 }
 .card-image img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .card-content h3 {
@@ -680,8 +680,8 @@ button {
 
 .go-to-top-btn {
   position: absolute;
-  right: -37%;
-  bottom: -5%;
+  right: -42%;
+  bottom: 5%;
 }
 
 /* contact end */

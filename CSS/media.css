@@ -259,7 +259,7 @@
 
   /* service card start */
   #service-card {
-    padding: 25px 0;
+    padding: 25px 0 82px 0;
     background: linear-gradient(
       180deg,
       rgba(225, 252, 255, 0.22) 10.37%,
@@ -346,6 +346,7 @@
 
   .why-box {
     display: flex;
+    margin: 0.9rem 0;
     width: 324.498px;
     padding: 12.725px 15.553px;
     justify-content: start;
@@ -385,7 +386,7 @@
   }
   .gallery-bg {
     position: absolute;
-    height: 66%;
+    height: 58%;
   }
   .slide-container {
     display: none;
