@@ -196,7 +196,8 @@ button {
 }
 
 .left-side-content {
-  width: 50%;
+  position: relative;
+  width: 60%;
   margin-top: -95px;
   padding-left: 230px;
 }
@@ -209,6 +210,7 @@ button {
 }
 
 .left-side-content h2 {
+  position: relative;
   font-size: 88px;
   font-style: normal;
   font-weight: 500;
@@ -221,8 +223,8 @@ button {
 }
 .underline-end {
   position: absolute;
-  top: 46%;
-  left: 28%;
+  top: 51%;
+  left: 46%;
 }
 .left-side-content p {
   margin-top: 62px;
@@ -626,7 +628,7 @@ button {
 
 /* contact start */
 .map {
-  width: 99vw;
+  width: 100vw;
 }
 #contact {
   padding-top: 80px;
