@@ -666,7 +666,7 @@
   /* top header css start */
 
   .top-header {
-    padding: 15px 80px;
+    padding: 15px 120px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -731,7 +731,7 @@
     font-weight: 500;
     padding-bottom: 5px;
     line-height: 70px;
-    background: linear-gradient(104deg, #0a85ea 31.72%, #00cce3 92.19%);
+    background: linear-gradient(165deg, #0a85ea 0%, #00cce3 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1002,11 +1002,11 @@
   }
   .contact-wrapper {
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 10%;
     display: flex;
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 600px;
     padding: 20px 32px;
     flex-direction: column;
     align-items: flex-start;
@@ -1044,7 +1044,7 @@
     gap: 32.979px;
   }
   .form-input {
-    width: 435px;
+    width: 340px;
     padding: 10px 0;
     background: transparent;
     display: block;
@@ -1067,7 +1067,7 @@
   }
 
   .btn-send-now {
-    padding: 11px 110px;
+    padding: 11px 80px;
     position: absolute;
     bottom: 32px;
     left: 20%;
@@ -1100,7 +1100,7 @@
     gap: 16px;
     position: absolute;
     bottom: -10%;
-    right: 25%;
+    right: 20%;
   }
   .footer-icon {
     cursor: pointer;
@@ -1108,7 +1108,7 @@
 
   .go-to-top-btn {
     position: absolute;
-    right: -20%;
+    right: -25%;
     bottom: -10%;
   }
 
