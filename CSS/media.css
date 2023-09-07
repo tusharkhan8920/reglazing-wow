@@ -414,7 +414,14 @@
   /* map start */
   .map {
     width: 100vw;
-    height: 390px;
+    height: 650px;
+    padding-top: 180px;
+    margin-top: -180px;
+    background: linear-gradient(
+      180deg,
+      rgba(225, 252, 255, 0) 13.69%,
+      rgba(69, 236, 255, 0.29) 50.21%
+    );
   }
   /* map end */
   /* contact us start */
