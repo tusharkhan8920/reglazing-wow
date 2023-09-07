@@ -322,12 +322,12 @@ button {
   background: transparent;
   color: transparent;
   z-index: 50;
-  padding: 8px 8px 5px 8px;
+  padding: 8px;
   border-radius: 60px;
   background-color: #095090;
 }
-.mini-button-container span {
-  margin: 0 5px;
+.mini-button-container a {
+  height: 45px;
 }
 .support-btn {
   margin-left: 11px;
@@ -339,8 +339,7 @@ button {
   width: 99vw;
   padding-top: 45px;
   bottom: -10px;
-  background: rgba(220, 251, 255, 0.1);
-  mix-blend-mode: multiply;
+  background: rgba(220, 251, 255, 0.2);
 }
 /* temp bg end */
 
@@ -581,9 +580,9 @@ button {
 
 .gallery-bg {
   position: absolute;
-  top: 9%;
+  top: 19%;
   width: 100%;
-  height: 80%;
+  height: 71%;
   z-index: -1;
   opacity: 0.2;
   background: radial-gradient(
@@ -629,6 +628,14 @@ button {
 /* contact start */
 .map {
   width: 100vw;
+  height: 650px;
+  padding-top: 180px;
+  margin-top: -180px;
+  background: linear-gradient(
+    180deg,
+    rgba(225, 252, 255, 0) 13.69%,
+    rgba(69, 236, 255, 0.29) 50.21%
+  );
 }
 #contact {
   padding-top: 80px;

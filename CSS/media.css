@@ -625,7 +625,7 @@
   }
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
+/* ! X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1600px) {
   /* global css start */
   .xl-none {
@@ -834,16 +834,15 @@
     right: 4.3%;
     display: flex;
     align-items: center;
-    justify-content: center;
     background: transparent;
     color: transparent;
     z-index: 50;
-    padding: 8px 8px 5px 8px;
+    padding: 8px;
     border-radius: 60px;
     background-color: #095090;
   }
-  .mini-button-container span {
-    margin: 0 5px;
+  .mini-button-container a {
+    height: 45px;
   }
   .support-btn {
     margin-left: 11px;
@@ -853,10 +852,9 @@
   .temp-bg {
     position: absolute;
     width: 99vw;
-    padding-top: 45px;
-    bottom: -10px;
+    padding-top: 105px;
+    bottom: -550px;
     background: rgba(220, 251, 255, 0.1);
-    mix-blend-mode: multiply;
   }
   /* temp bg end */
 
@@ -1126,7 +1124,7 @@
     position: relative;
     color: #183855;
     height: 352px;
-    padding: 60px 10px;
+    padding: 0 10px 60px;
     margin-top: -4px;
     z-index: -1;
     display: flex;
